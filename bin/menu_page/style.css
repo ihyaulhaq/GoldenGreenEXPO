@@ -1,0 +1,45 @@
+.latarGambar{
+    -fx-background-image: url('/Gambar/sampah2.jpg');
+    -fx-background-size: cover;   
+    -fx-background-radius: 20
+}
+.latarScroll{
+    -fx-background-color : #D5F7C4;
+
+}
+
+.scrollpage{
+    -fx-background-color :   #D5F7C4;
+    -fx-hbar-policy: NEVER;
+    -fx-vbar-policy: NEVER;
+}
+
+.transparent-button{
+    -fx-background-color: rgba(0,0,0,0)
+}
+
+.white-color{
+    -fx-background-color: #ffff
+}
+
+.background{
+    -fx-background-image: url('/Gambar/sampah2.jpg');
+    -fx-background-size: cover;   
+    -fx-background-radius: 20
+}
+
+.latarTombolUnggah{
+    -fx-background-image: url('/Gambar/tombol_unggah.png');
+    -fx-background-size: cover;  
+}
+
+.btn1{
+    -fx-background-color: #474973;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 0);
+    -fx-text-fill: white;
+}
+
+
+.bayangan-tombol{
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 0);
+}

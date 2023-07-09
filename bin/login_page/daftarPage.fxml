@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #FEFAE0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login_page.daftarPage_control">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="365.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="797.0" fitWidth="600.0" layoutY="-97.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../Gambar/suelee-wright-H4Xlh-B_7Rg-unsplash.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="1032.0" style="-fx-background-color: #D5F7C4;" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="TFnama" alignment="CENTER" layoutX="138.0" layoutY="286.0" prefHeight="25.0" prefWidth="320.0" promptText="Masukkan Nama" style="-fx-background-color: #EAFAF1; -fx-background-radius: 25;">
+               <font>
+                  <Font name="SimSun" size="12.0" />
+               </font></TextField>
+            <Label layoutX="261.0" layoutY="341.0" text="USERNAME">
+               <font>
+                  <Font name="Berlin Sans FB" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="277.0" layoutY="259.0" prefHeight="13.0" prefWidth="43.0" text="NAMA">
+               <font>
+                  <Font name="Berlin Sans FB" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="260.0" layoutY="428.0" text="PASSWORD">
+               <font>
+                  <Font name="Berlin Sans FB" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="TFpass" alignment="CENTER" layoutX="138.0" layoutY="461.0" prefHeight="25.0" prefWidth="320.0" promptText="Masukkan Password" style="-fx-background-color: #EAFAF1; -fx-background-radius: 30;">
+               <font>
+                  <Font name="SimSun" size="12.0" />
+               </font></TextField>
+            <TextField fx:id="TFusername" alignment="CENTER" layoutX="138.0" layoutY="373.0" prefHeight="25.0" prefWidth="320.0" promptText="Masukkan Username" style="-fx-background-color: #EAFAF1; -fx-background-radius: 25;">
+               <font>
+                  <Font name="SimSun" size="12.0" />
+               </font></TextField>
+            <Button fx:id="btnDaftar" layoutX="243.0" layoutY="591.0" mnemonicParsing="false" onAction="#daftar_click" prefHeight="35.0" prefWidth="110.0" style="-fx-background-color: #1f3607; -fx-background-radius: 30;" styleClass="bayangan-tombol" stylesheets="@../menu_page/style.css" text="Daftar" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="15.0" />
+               </font></Button>
+            <Label fx:id="labeltryAgain" alignment="CENTER" layoutX="129.0" layoutY="539.0" prefHeight="20.0" prefWidth="350.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="325.0" fitWidth="367.0" layoutX="117.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Gambar/icon%20GG.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

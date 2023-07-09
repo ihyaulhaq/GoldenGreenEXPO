@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" styleClass="latarScroll" stylesheets="@../menu_page/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="isi_daftar_relawan.isi_daftar_relawan">
+   <children>
+      <VBox layoutY="56.0" prefHeight="643.0" prefWidth="203.0" styleClass="white-color">
+         <children>
+            <HBox prefHeight="28.0" prefWidth="203.0" />
+            <HBox prefHeight="50.0" prefWidth="203.0">
+               <children>
+                  <StackPane prefHeight="46.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Gambar/home.png" />
+                           </image>
+                           <StackPane.margin>
+                              <Insets bottom="10.0" left="20.0" right="120.0" top="10.0" />
+                           </StackPane.margin>
+                        </ImageView>
+                        <Label text="Home" />
+                        <Button fx:id="btnHome" mnemonicParsing="false" onAction="#handleHomeButtonClick" prefHeight="46.0" prefWidth="183.0" style="-fx-background-radius: 60; -fx-min-height: 40; -fx-min-width: 40;" styleClass="transparent-button">
+                           <StackPane.margin>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </StackPane.margin>
+                        </Button>
+                     </children>
+                  </StackPane>
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="203.0">
+               <children>
+                  <StackPane prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <StackPane.margin>
+                              <Insets bottom="10.0" left="20.0" right="120.0" top="10.0" />
+                           </StackPane.margin>
+                           <image>
+                              <Image url="@../Gambar/sukarelawan.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="17.0" prefWidth="68.0" text="Sukarelawan">
+                           <StackPane.margin>
+                              <Insets bottom="10.0" left="40.0" right="10.0" top="10.0" />
+                           </StackPane.margin>
+                        </Label>
+                        <Button fx:id="btnSukarelawan" mnemonicParsing="false" onAction="#tombol_sukarelawan" prefHeight="40.0" prefWidth="183.0" style="-fx-background-radius: 60; -fx-min-height: 40; -fx-min-width: 40;" styleClass="transparent-button" />
+                     </children>
+                  </StackPane>
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="203.0">
+               <children>
+                  <StackPane prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Gambar/jadwal.png" />
+                           </image>
+                           <StackPane.margin>
+                              <Insets bottom="10.0" left="20.0" right="120.0" top="10.0" />
+                           </StackPane.margin>
+                        </ImageView>
+                        <Label text="Jadwal" />
+                        <Button fx:id="btnJadwal" mnemonicParsing="false" onAction="#tombol_jadwal" prefHeight="46.0" prefWidth="183.0" style="-fx-background-radius: 60; -fx-min-height: 40; -fx-min-width: 40;" styleClass="transparent-button" />
+                     </children>
+                  </StackPane>
+               </children>
+            </HBox>
+            <HBox prefHeight="177.0" prefWidth="203.0" />
+            <HBox alignment="CENTER" prefHeight="281.0" prefWidth="178.0">
+               <children>
+                  <Button fx:id="btnUnggah" mnemonicParsing="false" onAction="#handleUnggahButtonClick" prefHeight="250.0" prefWidth="173.0" style="-fx-background-radius: 60; -fx-min-height: 40; -fx-min-width: 40; -fx-background-color: rgba(0,0,0,0);" styleClass="latarTombolUnggah">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </HBox>
+         </children>
+      </VBox>
+      <HBox layoutX="-1.0" layoutY="-3.0" prefHeight="60.0" prefWidth="1200.0" styleClass="white-color">
+         <children>
+            <ImageView fitHeight="59.0" fitWidth="211.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Gambar/logo%20gg%20for%20apps.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="15.0" />
+               </HBox.margin>
+            </ImageView>
+            <Button fx:id="btnLogin" mnemonicParsing="false" onAction="#Login_ButtonClick" style="-fx-background-radius: 60; -fx-min-height: 40; -fx-min-width: 40;" styleClass="transparent-button">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="900.0" right="10.0" top="10.0" />
+               </HBox.margin>
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Gambar/login%20profile.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+      <VBox layoutX="203.0" layoutY="57.0" prefHeight="424.0" prefWidth="999.0">
+         <children>
+            <Label text="Cari Sukarelawan">
+               <font>
+                  <Font size="37.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="40.0" left="50.0" top="40.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Persyaratan :">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="30.0" left="50.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="txtSyarat" prefHeight="110.0" prefWidth="849.0" promptText="diatas 17 thn dan lain-lain">
+               <VBox.margin>
+                  <Insets left="50.0" right="100.0" />
+               </VBox.margin>
+            </TextField>
+            <Label prefHeight="20.0" prefWidth="81.0" text="Telepon       :">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="30.0" left="50.0" top="30.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="txtNoTel" prefHeight="25.0" prefWidth="300.0" promptText="+62-0000-0000-000">
+               <VBox.margin>
+                  <Insets left="50.0" right="750.0" />
+               </VBox.margin>
+            </TextField>
+         </children>
+      </VBox>
+      <Button fx:id="btnUnggahSK" layoutX="569.0" layoutY="494.0" mnemonicParsing="false" onAction="#klik_btnUnggah" prefHeight="30.0" prefWidth="60.0" text="Unggah" />
+   </children>
+</AnchorPane>

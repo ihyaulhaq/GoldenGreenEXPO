@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" styleClass="latarScroll" stylesheets="@../menu_page/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="artikel.liat_artikel">
+   <children>
+      <VBox alignment="CENTER" layoutX="207.0" prefHeight="273.0" prefWidth="991.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ARTIKEL" textAlignment="CENTER">
+               <font>
+                  <Font size="36.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LINGKUNGAN KITA BERSAMA">
+               <font>
+                  <Font size="21.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="20.0" top="20.0" />
+               </VBox.margin>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="“Sebagai Tempat Hidup, Lingkungan menjadi tempat bagi makhluk hidup, baik manusia, hewan, maupun tumbuhan untuk berpijak”" textAlignment="CENTER" wrappingWidth="584.8034515380859" />
+         </children>
+      </VBox>
+      <Text fill="WHITE" layoutX="367.0" layoutY="363.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="ANGKA TON SAMPAH JDCJDJJDHJDHSJ">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="150.0" fitWidth="997.0" layoutX="204.0" layoutY="291.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Gambar/FOTO%20DAUN%20GOLDEN%20GREEN.jpg" />
+         </image>
+      </ImageView>
+      <HBox alignment="TOP_CENTER" layoutX="189.0" layoutY="425.0" prefHeight="273.0" prefWidth="1011.0">
+         <children>
+            <StackPane alignment="TOP_CENTER" prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="113.0" fitWidth="209.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Gambar/FOTO%20ARTIKEL%203.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text fx:id="lblJudul1" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="202.13669085502625" StackPane.alignment="CENTER">
+                     <StackPane.margin>
+                        <Insets top="20.0" />
+                     </StackPane.margin>
+                  </Text>
+                  <Button fx:id="btnArtikel1" mnemonicParsing="false" onAction="#pindahKeArtikel" opacity="0.0" prefHeight="253.0" prefWidth="209.0" text="Button" />
+               </children>
+               <HBox.margin>
+                  <Insets left="20.0" right="20.0" top="20.0" />
+               </HBox.margin>
+            </StackPane>
+            <StackPane alignment="TOP_CENTER" prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="113.0" fitWidth="209.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Gambar/FOTO%20ARTIKEL%201%20.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text fx:id="lblJudul2" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="206.6666283607483" StackPane.alignment="CENTER">
+                     <StackPane.margin>
+                        <Insets top="20.0" />
+                     </StackPane.margin>
+                  </Text>
+                  <Button fx:id="btnArtikel2" mnemonicParsing="false" onAction="#pindahKeArtikel" opacity="0.0" prefHeight="253.0" prefWidth="209.0" text="Button" />
+               </children>
+               <HBox.margin>
+                  <Insets left="20.0" right="20.0" top="20.0" />
+               </HBox.margin>
+            </StackPane>
+            <StackPane alignment="TOP_CENTER" prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="113.0" fitWidth="209.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Gambar/FOTO%20ARTIKEL%202.jpg" />
+                     </image>
+                     <StackPane.margin>
+                        <Insets />
+                     </StackPane.margin>
+                  </ImageView>
+                  <Text fx:id="lblJudul3" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="206.6666283607483" StackPane.alignment="CENTER">
+                     <StackPane.margin>
+                        <Insets top="20.0" />
+                     </StackPane.margin>
+                  </Text>
+                  <Button fx:id="btnArtikel3" mnemonicParsing="false" onAction="#pindahKeArtikel" opacity="0.0" prefHeight="253.0" prefWidth="209.0" text="Button" />
+               </children>
+               <HBox.margin>
+                  <Insets left="20.0" right="20.0" top="20.0" />
+               </HBox.margin>
+            </StackPane>
+            <StackPane alignment="TOP_CENTER" prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="113.0" fitWidth="209.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Gambar/FOTO%20ARTIKEL%203.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="btnArtikel4" mnemonicParsing="false" onAction="#pindahKeArtikel" opacity="0.0" prefHeight="253.0" prefWidth="209.0" text="Button" />
+                  <Text fx:id="lblJudul4" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="206.6666283607483" StackPane.alignment="CENTER">
+                     <StackPane.margin>
+                        <Insets top="20.0" />
+                     </StackPane.margin>
+                  </Text>
+               </children>
+               <HBox.margin>
+                  <Insets left="20.0" right="20.0" top="20.0" />
+               </HBox.margin>
+            </StackPane>
+         </children>
+      </HBox>
+      <VBox layoutY="56.0" prefHeight="643.0" prefWidth="203.0" styleClass="white-color">
+         <children>
+            <HBox prefHeight="28.0" prefWidth="203.0" />
+            <HBox prefHeight="50.0" prefWidth="203.0">
+               <children>
+                  <StackPane prefHeight="46.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Gambar/home.png" />
+                           </image>
+                           <StackPane.margin>
+                              <Insets bottom="10.0" left="20.0" right="120.0" top="10.0" />
+                           </StackPane.margin>
+                        </ImageView>
+                        <Label text="Home" />
+                        <Button fx:id="btnHome" mnemonicParsing="false" onAction="#handleHomeButtonClick" prefHeight="46.0" prefWidth="183.0" style="-fx-background-radius: 60; -fx-min-height: 40; -fx-min-width: 40;" styleClass="transparent-button">
+                           <StackPane.margin>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </StackPane.margin>
+                        </Button>
+                     </children>
+                  </StackPane>
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="203.0">
+               <children>
+                  <StackPane prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <StackPane.margin>
+                              <Insets bottom="10.0" left="20.0" right="120.0" top="10.0" />
+                           </StackPane.margin>
+                           <image>
+                              <Image url="@../Gambar/sukarelawan.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="17.0" prefWidth="68.0" text="Sukarelawan">
+                           <StackPane.margin>
+                              <Insets bottom="10.0" left="40.0" right="10.0" top="10.0" />
+                           </StackPane.margin>
+                        </Label>
+                        <Button fx:id="btnSukarelawan" mnemonicParsing="false" onAction="#tombol_sukarelawan" prefHeight="40.0" prefWidth="183.0" style="-fx-background-radius: 60; -fx-min-height: 40; -fx-min-width: 40;" styleClass="transparent-button" />
+                     </children>
+                  </StackPane>
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="203.0">
+               <children>
+                  <StackPane prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Gambar/jadwal.png" />
+                           </image>
+                           <StackPane.margin>
+                              <Insets bottom="10.0" left="20.0" right="120.0" top="10.0" />
+                           </StackPane.margin>
+                        </ImageView>
+                        <Label text="Jadwal" />
+                        <Button fx:id="btnJadwal" mnemonicParsing="false" onAction="#tombol_jadwal" prefHeight="46.0" prefWidth="183.0" style="-fx-background-radius: 60; -fx-min-height: 40; -fx-min-width: 40;" styleClass="transparent-button" />
+                     </children>
+                  </StackPane>
+               </children>
+            </HBox>
+            <HBox prefHeight="177.0" prefWidth="203.0" />
+            <HBox alignment="CENTER" prefHeight="281.0" prefWidth="178.0">
+               <children>
+                  <Button fx:id="btnUnggah" mnemonicParsing="false" onAction="#handleUnggahButtonClick" prefHeight="250.0" prefWidth="173.0" style="-fx-background-radius: 60; -fx-min-height: 40; -fx-min-width: 40; -fx-background-color: rgba(0,0,0,0);" styleClass="latarTombolUnggah">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </HBox>
+         </children>
+      </VBox>
+      <HBox layoutX="-1.0" layoutY="-3.0" prefHeight="60.0" prefWidth="1200.0" styleClass="white-color">
+         <children>
+            <ImageView fitHeight="59.0" fitWidth="211.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Gambar/logo%20gg%20for%20apps.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="15.0" />
+               </HBox.margin>
+            </ImageView>
+            <Button fx:id="btnLogin" mnemonicParsing="false" onAction="#Login_ButtonClick" style="-fx-background-radius: 60; -fx-min-height: 40; -fx-min-width: 40;" styleClass="transparent-button">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="900.0" right="10.0" top="10.0" />
+               </HBox.margin>
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Gambar/login%20profile.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
