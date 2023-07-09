@@ -67,7 +67,7 @@ public class App extends Application {
         alert.setTitle("Login Required");
         alert.setHeaderText(null);
         alert.initStyle(StageStyle.UNDECORATED);
-        alert.setContentText("Silahkan login untuk");
+        alert.setContentText("Silahkan login untuk menggunakan ini");
         
         ButtonType loginButton = new ButtonType("Login");
         ButtonType cancelButton = new ButtonType("Kembali");
